@@ -20,7 +20,7 @@ public class TimeLimitBar extends JProgressBar {
     TimeLimitBar() {
         super(0, 100);
         isTimeLimit = false;
-        isMyTurn = true;
+        isMyTurn = true; 
         // テスト用
         frame = new JFrame("TimeLimitBar");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
